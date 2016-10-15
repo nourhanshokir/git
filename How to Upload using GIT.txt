@@ -1,0 +1,15 @@
+To Upload a File on Git hub
+1-create a folder  where you would save the file and lets name it (GIT TASKS )
+2- go to github.com , create an account , go to create a new repo  , name it just as you named your folder (GIT TASKS ) and click Create
+3-the URL that popped up is the place where you are going to save your files 
+4- go to your (GIT TASKS )file and create a text document , write the data that you want to upload 
+5- go to Git Bash , enter the cd (location of the file )
+6- write git init and press enter .(this will initialize empty Git Reprisotory in C:// )
+7- write git add. (this will add all the files in the GIT TASKS FOLDER ) OR git add (your files name).txt to add a single file
+8-writ git commit -m 'added the first file '
+9-  go to git hub and copy the first command in (Pushing an Existing File through Command Line )
+git remote add origin https:(to the end of the line ) this weill create a new remote linked to your repository )
+10- copy the second command 
+git push (will be sending your file to the represitory )
+11-write the password and the user name for your account if asked 
+12- your file is  now added online on the git hub 
